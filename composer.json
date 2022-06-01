@@ -1,0 +1,24 @@
+{
+    "name": "niceopening/nice-laravel",
+    "description": "Nice外部平台使用composer包(laravel)",
+    "autoload": {
+        "psr-4": {
+            "NiceOpeningLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "7.*"
+    },
+    "require_dev": {
+        "phpunit/phpunit": "^9.5.8",
+        "guzzlehttp/guzzle": "6.5",
+        "firebase/php-jwt": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "dengtao",
+            "email": "tao.deng@zebra-c.com"
+        }
+    ]
+}
